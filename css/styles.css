@@ -1,12 +1,12 @@
-.clickable {
+.clickable-js, .clickable-equal {
   cursor: pointer;
   color: green;
 }
 
-.clickable:hover {
+.clickable-js:hover, .clickable-equal:hover {
   text-decoration: underline;
 }
 
-.hidden {
+.hidden-js, .hidden-equal {
   display: none;
 }
