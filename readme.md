@@ -1,4 +1,4 @@
-# Flashcard Pratice
+# Flashcard Practice
 ## version 1.01, 1/9/2018
 
 ## GitHub repository: https://github.com/r-craig73/flashcard-site
