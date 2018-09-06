@@ -11,3 +11,10 @@ $(document).ready(function() {
     $(".hidden-equal").toggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable-plus-equal").click(function() {
+    $(".showing-plus-equal").toggle();
+    $(".hidden-plus-equal").toggle();
+  });
+});
