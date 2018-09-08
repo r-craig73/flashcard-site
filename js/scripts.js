@@ -6,6 +6,13 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+  $(".clickable-assignment-operator").click(function() {
+    $(".showing-assignment-operator").toggle();
+    $(".hidden-assignment-operator").toggle();
+  });
+});
+
+$(document).ready(function() {
   $(".clickable-equal").click(function() {
     $(".showing-equal").toggle();
     $(".hidden-equal").toggle();
@@ -37,5 +44,12 @@ $(document).ready(function() {
   $(".clickable-ratio-equal").click(function() {
     $(".showing-ratio-equal").toggle();
     $(".hidden-ratio-equal").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable-comparison-operator").click(function() {
+    $(".showing-comparison-operator").toggle();
+    $(".hidden-comparison-operator").toggle();
   });
 });

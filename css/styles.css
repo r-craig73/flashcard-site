@@ -1,12 +1,12 @@
-.clickable-js, .clickable-equal, .clickable-plus-equal, .clickable-minus-equal, .clickable-multiply-equal, .clickable-ratio-equal {
+.clickable-js, .clickable-assignment-operator, .clickable-equal, .clickable-plus-equal, .clickable-minus-equal, .clickable-multiply-equal, .clickable-ratio-equal, .clickable-comparison-operator {
   cursor: pointer;
   color: green;
 }
 
-.clickable-js:hover, .clickable-equal:hover, .clickable-plus-equal:hover, .clickable-minus-equal:hover, .clickable-multiply-equal:hover, .clickable-ratio-equal:hover {
+.clickable-js:hover, .clickable-assignment-operator:hover, .clickable-equal:hover, .clickable-plus-equal:hover, .clickable-minus-equal:hover, .clickable-multiply-equal:hover, .clickable-ratio-equal:hover, .clickable-comparison-operator:hover {
   text-decoration: underline;
 }
 
-.hidden-js, .hidden-equal, .hidden-plus-equal, .hidden-minus-equal, .hidden-multiply-equal, .hidden-ratio-equal {
+.hidden-js, .hidden-assignment-operator, .hidden-equal, .hidden-plus-equal, .hidden-minus-equal, .hidden-multiply-equal, .hidden-ratio-equal, .hidden-comparison-operator {
   display: none;
 }
