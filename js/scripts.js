@@ -18,3 +18,24 @@ $(document).ready(function() {
     $(".hidden-plus-equal").toggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable-minus-equal").click(function() {
+    $(".showing-minus-equal").toggle();
+    $(".hidden-minus-equal").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable-multiply-equal").click(function() {
+    $(".showing-multiply-equal").toggle();
+    $(".hidden-multiply-equal").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable-ratio-equal").click(function() {
+    $(".showing-ratio-equal").toggle();
+    $(".hidden-ratio-equal").toggle();
+  });
+});

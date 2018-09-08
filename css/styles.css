@@ -1,12 +1,12 @@
-.clickable-js, .clickable-equal, .clickable-plus-equal {
+.clickable-js, .clickable-equal, .clickable-plus-equal, .clickable-minus-equal, .clickable-multiply-equal, .clickable-ratio-equal {
   cursor: pointer;
   color: green;
 }
 
-.clickable-js:hover, .clickable-equal:hover, .clickable-plus-equal:hover {
+.clickable-js:hover, .clickable-equal:hover, .clickable-plus-equal:hover, .clickable-minus-equal:hover, .clickable-multiply-equal:hover, .clickable-ratio-equal:hover {
   text-decoration: underline;
 }
 
-.hidden-js, .hidden-equal, .hidden-plus-equal {
+.hidden-js, .hidden-equal, .hidden-plus-equal, .hidden-minus-equal, .hidden-multiply-equal, .hidden-ratio-equal {
   display: none;
 }
